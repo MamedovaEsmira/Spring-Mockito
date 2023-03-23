@@ -16,10 +16,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean checkUserExist(User user) {
         userDao = new UserDaoImpl();
-        if (userDao.findAllUsers().contains(user)) {
-            return true;
-        } else {
-            return false;
-        }
+        return userDao.findAllUsers().contains(user);
     }
 }
