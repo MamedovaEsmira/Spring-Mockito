@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860e903e-a82a-4a68-8b79-5fceeed9833e" name="Changes" comment="первый коммит">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springmockito/service/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springmockito/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springmockito/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springmockito/service/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springmockito/service/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <recent name="com.example.springmockito.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest.shouldCheckUserExistReturnTrue">
     <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMockito" />
       <extension name="coverage">
@@ -171,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.shouldCheckUserExistReturnFalse" />
         <item itemvalue="JUnit.UserServiceTest.shouldCheckUserExistReturnTrue" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserServiceTest.shouldCheckUserExistReturnFalse" />
         <item itemvalue="JUnit.UserServiceTest.testCheckUserExist_nonExistingUser" />
       </list>
     </recent_temporary>
@@ -190,6 +185,8 @@
       <workItem from="1678869612579" duration="2091000" />
       <workItem from="1679002201904" duration="3414000" />
       <workItem from="1679092190520" duration="38179000" />
+      <workItem from="1679662400774" duration="592000" />
+      <workItem from="1679690495120" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="первый коммит">
       <created>1678869841806</created>

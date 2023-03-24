@@ -39,12 +39,12 @@ public class UserDaoTest {
 
     @Test
     void shouldReturnNullGetUserByName() {
-        Assertions.assertNull(null, userDao.getUserByName(INCORRECT_USER_NAME));
+        Assertions.assertNull( userDao.getUserByName(INCORRECT_USER_NAME));
     }
 
     @Test
     void shouldReturnCollectionsUsers() {
-        Assertions.assertEquals(userDao.users, userDao.findAllUsers());
+        Assertions.assertEquals(USER_LIST, userDao.findAllUsers());
     }
 
     @Test

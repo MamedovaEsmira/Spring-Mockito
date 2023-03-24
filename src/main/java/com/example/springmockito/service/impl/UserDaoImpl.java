@@ -10,7 +10,7 @@ import java.util.List;
 
 public class UserDaoImpl implements UserDao {
 
-    public List<User> users;
+    private final List<User> users;
 
 
     public UserDaoImpl() {
